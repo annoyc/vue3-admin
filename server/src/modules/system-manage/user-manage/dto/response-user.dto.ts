@@ -1,13 +1,14 @@
 /*
  * @Author: 白雾茫茫丶<baiwumm.com>
  * @Date: 2024-07-18 14:16:10
- * @LastEditors: 白雾茫茫丶<baiwumm.com>
- * @LastEditTime: 2024-08-22 15:21:27
+ * @LastEditors: annoyc zhangyuancheng@zailingtech.com
+ * @LastEditTime: 2025-04-30 14:18:58
  * @Description: 响应体
  */
 
 import { ApiProperty } from '@nestjs/swagger';
 import type { User } from '@prisma/client';
+
 import { ResponseDto } from '@/dto/response.dto';
 
 /**
